@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="UZ">
+<head>
+    <!-- Assalomu Aleykum -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./CSS/main.css">
+    <title>Pockemon card</title>
+</head>
+<body>
+
+    <!-- MAIN -->
+    <main class="main">
+
+        <section class="hero">
+            <div class="container">
+                <div class="hero__top d-flex position-relative">
+                    <img class="hero__logo-img mx-auto" src="./images/pokemon_logo.svg" alt="logo" width="610"
+                        height="225">
+                </div>
+
+                <form class="form d-flex align-items-center justify-content-center mx-auto">
+                    <div class=" w-25">
+                        <select class="form-select w-75 mx-auto py-2 px-5 border border-dark rounded rounded-pill"
+                            aria-label="Default select example">
+                            <option selected>Gross</option>
+                        </select>
+                    </div>
+
+                    <div class="w-25">
+                        <label class="position-relative mx-auto w-100">
+                            <img class="position-absolute top-50 end-0 translate-middle" src="./images/search.svg"
+                                alt="search" width="24" height="24">
+                            <input class="form-control py-2 pe-5 ps-3 border border-dark rounded rounded-pill text-dark"
+                                type="name" name="user__kino" placeholder="search" autocomplete="off">
+                        </label>
+                    </div>
+
+                    <div class="w-25">
+                        <select class="form-select mx-auto w-75 py-2 px-5 border border-dark rounded rounded-pill"
+                            aria-label="Default select example">
+                            <option selected>Aa-Zz</option>
+                        </select>
+                    </div>
+
+                    <button type="submit"
+                        class="btn btn-light px-5 border border-dark rounded rounded-pill">Submit</button>
+                </form>
+
+                <div class="d-flex mb-4">
+                    <p
+                        class="pokemons-catalog d-inline-block h4 text-center m-0 pb-2 mx-auto border-bottom border-2 border-secondary">
+                    </p>
+                </div>
+
+                <ul class="list list-group d-flex flex-row border border-0">
+                </ul>
+            </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+    <script src="./JS/pokemons.js"></script>
+    <script src="./JS/script.js"></script>
+
+</body>
+</html>
